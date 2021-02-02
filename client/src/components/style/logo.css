@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    height: 120px;
+    width: 100px;
+    src: url(/image/credibled.png);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}

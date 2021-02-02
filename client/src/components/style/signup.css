@@ -1,0 +1,31 @@
+.main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-div {
+    width: 30rem;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 15px #888888;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 158, 160);
+    font-weight: bold;
+}
+.login {
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    background-color: yellow;
+}
+.error {
+    color: red;
+}
+@media only screen and (max-width: 800px) {
+    .main-div {
+        width: 25rem;
+    }
+}
